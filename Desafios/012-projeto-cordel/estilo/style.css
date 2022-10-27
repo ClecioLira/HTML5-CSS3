@@ -1,0 +1,56 @@
+@charset "UFT-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #B58E55;
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 1px 2px black;
+    padding-bottom: 1px;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: justify;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+.teste{
+    font-size: 1.5em;
+    display: inline-block;
+}
+#cachorra{
+    background-image: url(/Desafios/012-projeto-cordel/imagens/cachorra.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+}
+#cavalo{
+    background-image: url(/Desafios/012-projeto-cordel/imagens/cavalo.jpg);
+    background-size: 800px 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+}
+#castigo{
+    background-image: url(/Desafios/012-projeto-cordel/imagens/castigo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+}
