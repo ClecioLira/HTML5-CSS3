@@ -14,8 +14,11 @@ header{
     text-align: center;
 }
 header a{
-    text-decoration: underline;
+    text-decoration: none;
     color: white;
+}
+header a:hover{
+    text-decoration: underline;
 }
 section{
     line-height: 3em;
@@ -36,7 +39,7 @@ footer{
 }
 .cachorra{
     background-color: white;
-    background-image: url(../imagens/cachorra.jpg);
+    background-image: url('../imagens/cachorra.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -54,7 +57,7 @@ footer{
 }
 .cavalo{
     background-color: white;
-    background-image: url(../imagens/cavalo.jpg);
+    background-image: url('../imagens/cavalo.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -72,7 +75,7 @@ footer{
 }
 .pecado{
     background-color: white;
-    background-image: url(../imagens/pecado.jpg);
+    background-image: url('../imagens/pecado.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
