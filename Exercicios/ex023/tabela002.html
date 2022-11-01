@@ -12,16 +12,22 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         caption{
             font-size: 1.3em;
             font-weight: 600;
             padding: 0.5em;
-            background-color: rgba(128, 128, 128, 0.459);
+            background-color: rgba(128, 128, 128, 0.500);
             border: 1px solid black;
         }
+        thead >tr >th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
         tbody >tr:nth-child(2n){
-            background-color: rgba(128, 128, 128, 0.507);
+            background-color: rgba(128, 128, 128, 0.500);
         }
         td, th{
             border: 1px solid black;
