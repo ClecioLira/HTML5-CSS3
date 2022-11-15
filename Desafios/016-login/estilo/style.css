@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0em;
+    margin: 0em;
+}
+
+body {
+    position: relative;
+    background-image: linear-gradient(to bottom, rgb(255, 188, 244), rgb(255, 0, 255));
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 100vh;
+}
+
+form {
+    position: absolute;
+    margin: auto;
+    background-size: 100% 100%;
+    left: 50%;
+    top: 40%;
+
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    width: 30em;
+    height: 10em;
+    text-align: right;
+    line-height: 2.3em;
+    padding-top: 1em;
+    padding-right: 0.5em;
+    padding-bottom: 3em;
+    border: 5px solid rgb(255, 0, 234);
+    border-radius: 1.5em;
+}
+form >h1 {
+    display: block;
+    text-align: center;
+    bottom: 2em;
+    padding-bottom: 0.5em;
+}
+form >div >p >a {
+    color: rgb(255, 0, 234);
+    text-decoration: none;
+}
+form >div >p >a:hover{
+    text-decoration: underline;
+}
+
+label >span {
+    position: relative;
+    top: 0.3em;
+}
+
+input.login {
+    width: 18em;
+    border-radius: 1em;
+    border: 1px solid black;
+    padding: 0.4em;
+}
+
+div#enter {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 1.5em;
+    text-align: center;
+    width: 5em;
+    height: 2.1em;
+    left: 25em;
+}
+div#enter >a {
+    width: 5em;
+    text-decoration: none;
+    color: black;
+}
+div#enter >a >p:hover {
+    color: white;
+    background-color: rgb(255, 0, 234);
+    border-radius: 1.5em;
+    height: 2.1em;
+}
