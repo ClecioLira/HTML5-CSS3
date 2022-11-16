@@ -24,15 +24,15 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
-
+    
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.700);
-
+    
+    transform: translate(-50%, -50%);
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
@@ -81,12 +81,11 @@ form > div.campo {
 div.campo input {
     font-size: 1em;
     width: calc(100% - 50px);
-    transform: translateY(-10px);
     height: 100%;
     border: 1px solid black;
     border-radius: 5px;
     padding: 4px;
-    
+    transform: translateY(-10px);  
 }
 
 /* ENTRAR E ESQUECI SENHA */
