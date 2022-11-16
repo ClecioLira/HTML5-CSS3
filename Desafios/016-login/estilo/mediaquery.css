@@ -2,41 +2,98 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background-image: linear-gradient(to top, white, aqua);
+        background-image: linear-gradient(to top, white, tomato);
     }
 
     section#login {
         width: 90vw;
+        height: 320px;
     }
 
     section#login > div#imagem {
-        float: left;
-        width: 30%;
+        float: right;
+        width: 40%;
         height: 100%;
     }
 
     section#login > div#formulario {
-        width: 70%;
+        width: 60%;
     }
 }
 
 @media screen and (min-width: 992px) {
     body {
-        background-image: linear-gradient(to top, white, aqua);
+        background-image: linear-gradient(to top, white, tomato);
     }
 
     section#login {
         width: 950px;
+        height: 380px;
     }
 
     section#login > div#imagem {
-        float: right;
+        float: left;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario {
-        float: left;
+        float: right;
         width: 50%;
+    }
+
+    div#formulario > h1 {
+        text-align: center;
+        margin: 10px 0px 15px 0px;
+    }
+    
+    div#formulario > p {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    div#botao> input[type=submit] {
+        display: block;
+        font-size: 1em;
+        width: 100%;
+        height: 40px;
+        background-color: tomato;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 45px;
+    }
+    div#botao > input[type=submit]:hover {
+        background-color: rgb(255, 38, 0);
+        color: white;
+    }
+    
+    div#botao > a.botao {
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 100%;
+        height: 40px;
+        background-color: rgb(173, 40, 16);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding-top: 10px;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+    div#botao > a.botao:hover {
+        background-color: rgb(77, 19, 8);
+        text-decoration: underline;
+    }
+
+    form > div.campo {
+        display: block;
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        margin: 15px 0px 25px 0px;
+        text-align: center;
     }
 }
