@@ -1,0 +1,25 @@
+/* O TAMANHO DO BLOCO VAI DEPENDER DO CONTEUDO QUE TEM DENTRO DELE
+FLEX-WRAP - encapsulamento
+flex-wrap: nowrap => não quebra a linha.
+flex-wrap: wrap => vai quebrar a linha no sentido do cross axis
+flex-wrap: wrap-reverse => vai quebrar a linha no sentido contrário do cross axis 
+
+FLEX-FLOW - shorthand de flex direction/ flex wrap*/
+div.container {
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+
+    background-color: aqua;
+
+}
+
+div.item {
+    text-align: center;
+    background-color: grey;
+    border: 1px solid black;
+    padding: 10px;
+
+    flex: auto;
+}

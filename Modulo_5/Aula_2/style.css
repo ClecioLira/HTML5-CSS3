@@ -1,0 +1,22 @@
+/* FLEX DIRECTION
+row => em linha
+row-reverse => linha ao contrario, começa do lado direito
+column => em coluna 
+column-reverse => em coluna so que de baixo para cima */
+
+/* Eixos(axis) 
+flex-direction: row => main-axis H | cross-axis V
+flex-direction: column => main-axis V | cross-axis H */
+
+div.container {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+div.item {
+    background-color: gray;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
