@@ -1,25 +1,34 @@
-/* O TAMANHO DO BLOCO VAI DEPENDER DO CONTEUDO QUE TEM DENTRO DELE
-FLEX-WRAP - encapsulamento
-flex-wrap: nowrap => não quebra a linha.
-flex-wrap: wrap => vai quebrar a linha no sentido do cross axis
-flex-wrap: wrap-reverse => vai quebrar a linha no sentido contrário do cross axis 
+/* JUSTIFY CONTENT - faz o alinhamento de acordo com o main axis 
+flex-start(padrao) - fica grudado ao main start
+flex-end - fica grudado ao main end
+center - fica no centro do container
+space-between - o primeiro item fica no main start e o ultimo item fica no main end e os outros sao distribuidos por igual
+space-evenly - coloca todos os itens com espacamento iguais, independente de onde comeã ou termina
+space-around - vai dividir todo o container na quantidade de itens que tiver dentro dele, e vai colocar cada item centralizado no seu devido espaço
+*/
 
-FLEX-FLOW - shorthand de flex direction/ flex wrap*/
+/* ALIGN ITENS - faz o alinhamento de acordo com o cross axis
+stretch(padrao) - esticar os itens
+flex-start - gruda no inicio do cross axis
+flex-end - gruda no final do cross axis
+center - deixa no meio do container
+*/
+
 div.container {
     display: flex;
     /* flex-direction: row;
     flex-wrap: wrap; */
     flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
 
+    height: 200px;
     background-color: aqua;
-
 }
 
 div.item {
     text-align: center;
     background-color: grey;
     border: 1px solid black;
-    padding: 10px;
-
-    flex: auto;
+    padding: 5px;
 }
