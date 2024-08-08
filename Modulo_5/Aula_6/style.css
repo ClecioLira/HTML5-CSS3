@@ -1,0 +1,17 @@
+/* JUSTIFY CONTENT ALINHA O CONTEUDO DENTRO DO EIXO PRINCIPAL
+ALIGN ITENS ALINHA O CONTEUDO DENTRO DO EIXO TRANSVERSAL
+ALIGN CONTENT ALINHA O CONTEUDO DENTRO DO EIXO TRANSVERSAL SOMENTE QUANDO ESTIVER EMPACOTADO */
+
+div.container {
+    background-color: aqua;
+    display: flex;
+    flex-flow: row wrap;
+    height: 400px;
+    align-content: space-around;
+}
+
+div.item {
+    background-color: grey;
+    border: 1px solid black;
+    padding: 40px;
+}

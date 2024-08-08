@@ -1,0 +1,33 @@
+/* ORDER ORDENA OS ITENS DE ACORDO COM O VALOR DA NUMERAÇÃO */
+/* ALIGN SELF DEIXA CADA ITEM EM UM LOCAL DIFERENTE CASO VOCÊ QUEIRA*/
+
+div#i1 {
+    align-self: auto; /* HERDA DO PAI */
+}
+div#i2 {
+    align-self: flex-start;
+}
+div#i3 {
+    align-self: flex-end;
+}
+div#i4 {
+    align-self: center;
+}
+div#i5 {
+    align-self: stretch;
+}
+
+div.container {
+    background-color: aqua;
+
+    display: flex;
+    flex-flow: row wrap;
+    height: 300px;
+    justify-content: space-evenly;
+}
+
+div.item {
+    background-color: grey;
+    border: 1px solid black;
+    padding: 20px;
+}
